@@ -1,0 +1,4 @@
+$sc:25;
+@function px-rem($px){
+	@return #{$px/$sc}rem;
+}
